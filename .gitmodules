@@ -7,3 +7,6 @@
 [submodule "boards/LILYGO_EP32-S2_DISPLAY_V1_1/src/LilyGo-T-Display-S2"]
 	path = boards/LILYGO_EP32-S2_DISPLAY_V1_1/src/LilyGo-T-Display-S2
 	url = https://github.com/Xinyuan-LilyGO/LilyGo-T-Display-S2.git
+[submodule "boards/LILYGO_EP32-S2_DISPLAY_V1_1/src/IDF_TTGO-Display-S2-DisplLib/components/esp-idf-st7789"]
+	path = boards/LILYGO_EP32-S2_DISPLAY_V1_1/src/IDF_TTGO-Display-S2-DisplLib/components/esp-idf-st7789
+	url = https://github.com/nopnop2002/esp-idf-st7789.git

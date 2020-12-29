@@ -7,3 +7,6 @@
 [submodule "boards/LILYGO_EP32-S2_V1_1/src/LilyGo-esp32s2-base"]
 	path = boards/LILYGO_EP32-S2_V1_1/src/LilyGo-esp32s2-base
 	url = https://github.com/Xinyuan-LilyGO/LilyGo-esp32s2-base/
+[submodule "boards/LILYGO_EP32-S2_DISPLAY_V1_1/src/LilyGo-T-Display-S2"]
+	path = boards/LILYGO_EP32-S2_DISPLAY_V1_1/src/LilyGo-T-Display-S2
+	url = https://github.com/Xinyuan-LilyGO/LilyGo-T-Display-S2.git

@@ -1,0 +1,3 @@
+[submodule "boards/LilyGoT-Display-S2/src/IDF_TTGO-Display-S2-DisplLib/components/esp-idf-st7789"]
+	path = boards/LilyGoT-Display-S2/src/IDF_TTGO-Display-S2-DisplLib/components/esp-idf-st7789
+	url = https://github.com/nopnop2002/esp-idf-st7789.git

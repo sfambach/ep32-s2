@@ -1,4 +1,4 @@
-Small programm that moves the mouse to keep the computer in alive.
+Small programm that moves the mouse to keep the computer alive.
 Arduino ESP lib 2.0 higher can be used, no addtional libs needed.
 Written for the esp32-s2
 

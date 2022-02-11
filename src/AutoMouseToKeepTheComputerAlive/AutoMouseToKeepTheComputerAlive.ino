@@ -37,7 +37,7 @@ void loop() {
   Mouse.move(-distX, -distY, 0);
 
   // delay(2000);document out to see the mouse moving
-  dely(100);
+  delay(100);
   // and go back
   Mouse.move(distX, distY, 0);
  

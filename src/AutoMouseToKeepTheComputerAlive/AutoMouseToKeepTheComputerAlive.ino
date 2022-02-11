@@ -1,4 +1,9 @@
-
+/**
+ * Small programm that moves the mouse to keep the computer in active mode.
+ * Arduino ESP lib 2.0 higher can be used, no addtional libs needed.
+ * 
+ * Visit http://fambach.net if you want. 
+ */
 #include "USB.h"
 #include "USBHIDMouse.h"
 USBHIDMouse Mouse;
@@ -22,7 +27,6 @@ void setup() {
 }
 
 void loop() {
-  // read the buttons:
 
   int distX = random(DIST_X_MIN,DIST_X_MAX);
   int distY = random(DIST_Y_MIN,DIST_Y_MAX);
@@ -32,7 +36,8 @@ void loop() {
  
   Mouse.move(-distX, -distY, 0);
 
-  delay(2000);
+  // delay(2000);document out to see the mouse moving
+  dely(100);
   // and go back
   Mouse.move(distX, distY, 0);
  
